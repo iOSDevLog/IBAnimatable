@@ -6,7 +6,7 @@
 import UIKit
 
 @IBDesignable
-open class AnimatableButton: UIButton, CornerDesignable, FillDesignable, BorderDesignable, ShadowDesignable, MaskDesignable, Animatable {
+open class AnimatableButton: UIButton, CornerDesignable, FillDesignable, BorderDesignable, ShadowDesignable, MaskDesignable, Animatable, EdgeInsetsDesignable {
 
   // MARK: - CornerDesignable
   @IBInspectable open var cornerRadius: CGFloat = CGFloat.nan {
@@ -148,6 +148,29 @@ open class AnimatableButton: UIButton, CornerDesignable, FillDesignable, BorderD
     }
   }
   open var timingFunction: TimingFunctionType = .none
+  
+  // MARK: - EdgeInsetsDesignable
+  open var imagePositionType: ImagePositionType = ImagePositionType.left {
+    didSet {
+      configureEdgeInsets()
+    }
+  }
+  
+  @IBInspectable var _imagePositionType: String? {
+    didSet {
+      if let type = _imagePositionType, let imagePositionType = ImagePositionType(string: type) {
+        self.imagePositionType = imagePositionType
+      } else {
+        imagePositionType = .left
+      }
+    }
+  }
+  
+  @IBInspectable open var spacing: CGFloat = CGFloat.nan {
+    didSet {
+      configureEdgeInsets()
+    }
+  }
 
   // MARK: - Lifecycle
   open override func prepareForInterfaceBuilder() {
@@ -176,5 +199,6 @@ open class AnimatableButton: UIButton, CornerDesignable, FillDesignable, BorderD
     configureCornerRadius()
     configureBorder()
     configureMaskShadow()
+    configureEdgeInsets()
   }
 }

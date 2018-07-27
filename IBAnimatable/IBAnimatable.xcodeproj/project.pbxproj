@@ -36,6 +36,8 @@
 		C489AD1E20E640B300273B77 /* ActivityIndicatorAnimationCirclePendulum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489AD1D20E640B300273B77 /* ActivityIndicatorAnimationCirclePendulum.swift */; };
 		C49C08DD20A05072002FCAFD /* ActivityIndicatorAnimationRupee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C08DC20A05072002FCAFD /* ActivityIndicatorAnimationRupee.swift */; };
 		DD98209320F4A3CC0058D5FE /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98209220F4A3CC0058D5FE /* SwiftSupport.swift */; };
+		DE994586210AF5F0009A408C /* ImagePositionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE994585210AF5F0009A408C /* ImagePositionType.swift */; };
+		DE994588210AF67B009A408C /* EdgeInsetsDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE994587210AF67B009A408C /* EdgeInsetsDesignable.swift */; };
 		E20DAEB82003662900BE1C88 /* GradientMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DAEB72003662900BE1C88 /* GradientMode.swift */; };
 		E20DAEBA2003682F00BE1C88 /* RadialGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DAEB92003682F00BE1C88 /* RadialGradientLayer.swift */; };
 		E2561F5F1ECD7DD900A6D853 /* IBAnimatable.h in Headers */ = {isa = PBXBuildFile; fileRef = E2561F5D1ECD7DD900A6D853 /* IBAnimatable.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -242,6 +244,8 @@
 		C489AD1D20E640B300273B77 /* ActivityIndicatorAnimationCirclePendulum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationCirclePendulum.swift; sourceTree = "<group>"; };
 		C49C08DC20A05072002FCAFD /* ActivityIndicatorAnimationRupee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationRupee.swift; sourceTree = "<group>"; };
 		DD98209220F4A3CC0058D5FE /* SwiftSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSupport.swift; sourceTree = "<group>"; };
+		DE994585210AF5F0009A408C /* ImagePositionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePositionType.swift; sourceTree = "<group>"; };
+		DE994587210AF67B009A408C /* EdgeInsetsDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsetsDesignable.swift; sourceTree = "<group>"; };
 		E20DAEB72003662900BE1C88 /* GradientMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientMode.swift; sourceTree = "<group>"; };
 		E20DAEB92003682F00BE1C88 /* RadialGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientLayer.swift; sourceTree = "<group>"; };
 		E2561F5D1ECD7DD900A6D853 /* IBAnimatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBAnimatable.h; sourceTree = "<group>"; };
@@ -736,6 +740,7 @@
 				E27FD1E21ECD7D8A00F74840 /* GradientType.swift */,
 				E20DAEB72003662900BE1C88 /* GradientMode.swift */,
 				E27FD1E31ECD7D8A00F74840 /* IBEnum.swift */,
+				DE994585210AF5F0009A408C /* ImagePositionType.swift */,
 				E27FD1E41ECD7D8A00F74840 /* InteractiveGestureType.swift */,
 				E27FD1E51ECD7D8A00F74840 /* MaskType.swift */,
 				E27FD1E61ECD7D8A00F74840 /* PresentationAnimationType.swift */,
@@ -809,6 +814,7 @@
 				E27FD1FE1ECD7D8A00F74840 /* BorderDesignable.swift */,
 				E27FD1FF1ECD7D8A00F74840 /* CheckBoxDesignable.swift */,
 				E27FD2001ECD7D8A00F74840 /* CornerDesignable.swift */,
+				DE994587210AF67B009A408C /* EdgeInsetsDesignable.swift */,
 				E27FD2011ECD7D8A00F74840 /* FillDesignable.swift */,
 				E27FD2021ECD7D8A00F74840 /* GradientDesignable.swift */,
 				E27FD2031ECD7D8A00F74840 /* MaskDesignable.swift */,
@@ -1167,6 +1173,7 @@
 				E27FD29A1ECD7D8A00F74840 /* BlurDesignable.swift in Sources */,
 				E27FD2421ECD7D8A00F74840 /* ActivityIndicatorAnimationBallPulseRise.swift in Sources */,
 				E27FD29E1ECD7D8A00F74840 /* FillDesignable.swift in Sources */,
+				DE994588210AF67B009A408C /* EdgeInsetsDesignable.swift in Sources */,
 				E27FD2561ECD7D8A00F74840 /* ActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
 				E27FD2551ECD7D8A00F74840 /* ActivityIndicatorAnimationPacman.swift in Sources */,
 				E27FD2A51ECD7D8A00F74840 /* RefreshControlerDesignable.swift in Sources */,
@@ -1184,6 +1191,7 @@
 				E27FD2B61ECD7D8A00F74840 /* PresentFadeSegue.swift in Sources */,
 				E27FD2791ECD7D8A00F74840 /* AnimatableTabBarController.swift in Sources */,
 				E27FD23C1ECD7D8A00F74840 /* ActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				DE994586210AF5F0009A408C /* ImagePositionType.swift in Sources */,
 				E27FD2B21ECD7D8A00F74840 /* ViewControllerAnimatedTransitioning.swift in Sources */,
 				E27FD2501ECD7D8A00F74840 /* ActivityIndicatorAnimationLineScaleParty.swift in Sources */,
 				C456071F209BAACB002B1DF4 /* ActivityIndicatorAnimationCircleDashStrokeSpin.swift in Sources */,
